@@ -2,7 +2,7 @@
 ## Apple Doc MCP Server
 
 **Analysis Date:** November 6, 2025  
-**Repository:** jarrod/apple-doc-mcp  
+**Repository:** MightyDillah/apple-doc-mcp  
 **Version:** 1.9.1  
 **Analyst:** GitHub Copilot Security Analysis
 
@@ -153,11 +153,11 @@ console.error(`✅ Index built with ${symbolCount} symbols`);
 **Status:** ⚠️ LOW RISK
 
 #### Findings:
-**Dependencies (3 total):**
+**Runtime Dependencies (2 total):**
 - `@modelcontextprotocol/sdk`: ^1.20.2 - Official MCP SDK
 - `axios`: ^1.12.2 - Popular HTTP client
 
-**Dev Dependencies:**
+**Dev Dependencies (3 total):**
 - `@types/node`: ^24.9.1
 - `typescript`: ^5.9.3
 - `xo`: ^1.2.3 - Linting tool
