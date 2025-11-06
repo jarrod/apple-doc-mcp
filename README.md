@@ -154,6 +154,14 @@ pnpm build
 - **Quick Start Examples**: SwiftUI and UIKit specific workflows
 - **Professional Formatting**: Clean, helpful error messages with emojis and structure
 
+## 🔒 Security
+
+This repository has undergone a comprehensive security analysis. See:
+- [SECURITY_VERIFICATION_SUMMARY.md](./SECURITY_VERIFICATION_SUMMARY.md) - Quick security verification summary
+- [SECURITY_ANALYSIS.md](./SECURITY_ANALYSIS.md) - Detailed security analysis report
+
+**Status:** ✅ VERIFIED SECURE - No malicious code, data exfiltration, or security vulnerabilities found.
+
 ## ⚠️ Current Limitations
 
 - **Limited Symbol Coverage**: Search relies on cached framework data and references, not comprehensive symbol downloading
