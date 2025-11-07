@@ -1,19 +1,5 @@
-import {readFileSync} from 'node:fs';
-import {fileURLToPath} from 'node:url';
-import {dirname, join} from 'node:path';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
-
-// Read version from package.json
-const packageJsonPath = join(__dirname, '../../../package.json');
-const packageJson = JSON.parse(readFileSync(packageJsonPath, 'utf8')) as {
-	version: string;
-	name: string;
-	description: string;
-	author: string;
-	repository?: {url: string};
-};
+// @ts-expect-error - JSON import with type assertion
+import packageJson from '../../../package.json' with { type: 'json' };
 
 export const buildVersionHandler = () => async () => ({
 	content: [
