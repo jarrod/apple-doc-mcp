@@ -105,3 +105,4 @@ test-*.js
 pnpm-lock.yaml
 dist
 bun.lockb
+bun.lock
