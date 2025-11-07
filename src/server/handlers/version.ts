@@ -1,4 +1,5 @@
-// @ts-expect-error - JSON import with type assertion
+// JSON import using ECMAScript import attributes (newer than resolveJsonModule)
+// @ts-expect-error - TS doesn't fully support import attributes yet
 import packageJson from '../../../package.json' with { type: 'json' };
 
 export const buildVersionHandler = () => async () => ({
