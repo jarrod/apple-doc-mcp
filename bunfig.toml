@@ -1,0 +1,23 @@
+# All buns in the oven must be this tall to ride the ride.
+# The `bun-version` field can be used to enforce a specific version of Bun.
+# bun-version = ">=1.0.0"
+
+[install]
+# The `exact` setting makes versions in `package.json` behave like `pnpm` or `yarn`'s `install --exact`
+#
+# exact = true
+
+# To make your package manager more strict, you can uncomment this section.
+# It will prevent any dependency from being implicitly added to your `package.json`.
+# Instead, you'll need to use `bun add <package>` to add it.
+#
+# save = "none"
+
+# To automatically sort dependencies in your `package.json`, you can uncomment this.
+#
+# auto = "alphabetical"
+
+# The `frozen-lockfile` setting makes `bun install` fail if the `bun.lockb` is not up-to-date.
+# This is useful for CI/CD environments.
+#
+# frozen-lockfile = true
